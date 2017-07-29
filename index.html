@@ -1,3 +1,62 @@
-<p>
-  x
-</p>
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Buck Tower</title>
+
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet">
+
+    <!-- My Styles -->
+    <link rel="stylesheet" type="text/css" href="css/custom.css"/>
+
+    <!-- Insta -->
+    <link rel="stylesheet" type="text/css" href="css/jqinstagram.css"/>
+  </head>
+
+<body>
+  <div class="container">
+    <a href="#linktotop"></a>
+    <h1>Buck Tower</h1>
+    <p>
+      I study computer science at
+      <a href="https://www.cs.utexas.edu/">The University of Texas at Austin</a>.
+      Full stack web dev is my focus at the moment, but I've worked on all kinds
+      of different projects.
+    </p>
+    <h2><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span></h3>
+
+    <h2><span class="glyphicon glyphicon-camera" aria-hidden="true"></span></h3>
+    <ul id="instagram"></ul>
+
+    <h2><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span></h3>
+    <iframe src="https://docs.google.com/viewer?srcid=1KE-nOFkxk8b9XXEjulYgLPBdGFfAJDLTHFrh0J2tVgQ&pid=explorer&efh=false&a=v&chrome=false&embedded=true" style="border:0px #000000 solid;" width="100%" height="480px"></iframe>
+
+    <h2><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></h3>
+    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1vFW6RTZZd-bxhY638mS1IZlwzgI" style="border:0px #000000 solid;" width="100%" height="480"></iframe>
+
+    <h2><span class="glyphicon glyphicon-cd" aria-hidden="true"></span></h3>
+    <iframe src="http://www.lists.fm/tower-family" style="border:0px #000000 solid;" name="music" scrolling="auto" align="bottom" height="500" width="100%">
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="js/jqinstapics.min.js"></script>
+
+  <script>
+    $("#instagram").jqinstapics({
+      "user_id": "27897520",
+      "access_token": "27897520.674061d.af2ee490b2544d61bf9a0e7caa4b790d",
+      "count": 10
+    });
+  </script>
+</body>

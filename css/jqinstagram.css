@@ -1,0 +1,13 @@
+#instagram {
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	align-text: center;
+	margin: auto;
+}
+
+#instagram li {
+	list-style:none;
+	float:left;
+	margin:0 20px 20px 0;
+}
