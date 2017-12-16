@@ -2,10 +2,10 @@ body {
   text-align: center;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Source Code Pro';
+    font-family: 'Inconsolata', monospace;
 }
 p, div {
-    font-family: 'Source Code Pro';
+    font-family: 'Inconsolata', monospace;
     font-weight: 200;
 }
 .social-media-icons a {
