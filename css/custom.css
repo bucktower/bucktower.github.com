@@ -1,5 +1,6 @@
 body {
   text-align: center;
+  background: #ffffff url(../media/bg.jpg) top center
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Inconsolata', monospace;
@@ -11,8 +12,16 @@ p, div {
 .social-media-icons a {
   font-size: 28px;
 }
+
 #follow {
   color: grey;
+}
+
+#main {
+  background: white;
+  border: 10px black solid;
+  margin: 30px;
+  padding: 35px;
 }
 
 a:hover {
