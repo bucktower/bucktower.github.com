@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+FN;CHARSET=UTF-8:Buck Tower
+N;CHARSET=UTF-8:Tower;Buck;;;
+GENDER:M
+EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:buck@bucktower.net
+PHOTO;TYPE=JPG:https://pbs.twimg.com/profile_images/955305871625482240/LVKefQ9i_400x400.jpg
+TEL;TYPE=CELL:832-358-5916
+URL;CHARSET=UTF-8:https://bucktower.net
+X-SOCIALPROFILE;CHARSET=UTF-8;TYPE=facebook:https://www.facebook.com/abucktower
+X-SOCIALPROFILE;CHARSET=UTF-8;TYPE=linkedIn:https://www.linkedin.com/in/bucktower/
+X-SOCIALPROFILE;CHARSET=UTF-8;TYPE=twitter:https://twitter.com/bucktower
+REV:2018-03-13T23:52:32-05:00
+END:VCARD
