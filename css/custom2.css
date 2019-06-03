@@ -1,3 +1,7 @@
+:root {
+  --animation-time: 6s; 
+}
+
 body {
   text-align: center;
   background: #413233;
@@ -83,7 +87,7 @@ button:focus {
 }
 
 .box {
-  animation: float 6s ease-in-out infinite;
+  animation: float var(--animation-time) ease-in-out infinite;
 }
 
 /* Custom Thumbnails */
