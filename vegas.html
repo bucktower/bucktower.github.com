@@ -40,6 +40,8 @@
     <br />
     <br />
 
+    <div id="days0"> Days</div> <div id="hours0"> Hours</div> <div id="minutes0"> Minutes</div> <div id="seconds0"> Seconds</div>
+    
     <div id="days"> Days</div> <div id="hours"> Hours</div> <div id="minutes"> Minutes</div> <div id="seconds"> Seconds</div>
 
     <br />
@@ -49,6 +51,18 @@
   </div>
   
   <script>
+    // set the date we're counting down to
+    var target_date0 = new Date('2019-07-18T22:40:00').getTime();
+    
+    // variables for time units
+    var days0, hours0, minutes0, seconds0;
+      
+    // get tag element
+    var dayse0 = document.getElementById('days0');
+    var hourse0 = document.getElementById('hours0');
+    var minutese0 = document.getElementById('minutes0');
+    var secondse0 = document.getElementById('seconds0');
+    
     // set the date we're counting down to
     var target_date = new Date('2019-08-08T02:04:00').getTime();
     
@@ -68,6 +82,7 @@
       // find the amount of "seconds" between now and target
       var current_date = new Date().getTime();
       var seconds_left = (target_date - current_date) / 1000;
+      var seconds_left0 = (target_date0 - current_date) / 1000;
 
       // do some time calculations
       days = parseInt(seconds_left / 86400);
@@ -83,7 +98,21 @@
       hourse.innerHTML = hours + " Hours";
       minutese.innerHTML = minutes + " Minutes";
       secondse.innerHTML = seconds + " Seconds";
+      // do some time calculations
+      days0 = parseInt(seconds_left0 / 86400);
+      seconds_left0 = seconds_left0 % 86400;
       
+      hours0 = parseInt(seconds_left0 / 3600);
+      seconds_left0 = seconds_left0 % 3600;
+      
+      minutes0 = parseInt(seconds_left0 / 60);
+      seconds0 = parseInt(seconds_left0 % 60);
+      
+      dayse0.innerHTML = days0 + " Days";
+      hourse0.innerHTML = hours0 + " Hours";
+      minutese0.innerHTML = minutes0 + " Minutes";
+      secondse0.innerHTML = seconds0 + " Seconds";
+
     }, 1000);
   </script>
 
@@ -91,17 +120,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.8.1/holder.min.js"></script>
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script src="js/jqinstapics.min.js"></script>
-  <script src="js/custom2.js"></script>
-
-  <script>
-    $("#instagram").jqinstapics({
-      "user_id": "27897520",
-      "access_token": "27897520.674061d.af2ee490b2544d61bf9a0e7caa4b790d",
-      "count": 10
-    });
-  </script>
-
+   <script src="js/custom2.js"></script>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
