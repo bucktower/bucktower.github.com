@@ -1,5 +1,9 @@
 :root {
-  --animation-time: 6s; 
+  --animation-time: 6s;
+}
+
+iframe {
+  border: 0;
 }
 
 body {
@@ -8,17 +12,23 @@ body {
   /* background: #413233; */
   /* background: #ffffff url(../media/bg.jpg) top center */
 }
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Bungee Hairline', monospace;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bungee Hairline", monospace;
 }
-p, div {
-  font-family: 'Bungee Hairline', monospace;
+p,
+div {
+  font-family: "Bungee Hairline", monospace;
   font-weight: 200;
   font-size: 20px;
 }
 .social-media-icons a {
   font-size: 28px;
-  color: #DBD1B6;
+  color: #dbd1b6;
 }
 
 a {
@@ -39,32 +49,32 @@ a:hover {
   margin: 30px;
   padding: 35px;
   padding-top: 0px;
-  color: #DBD1B6;
+  color: #dbd1b6;
   /* color: #DBD1B6; */
 }
 
 a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:active {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 button .retro-btn {
-  margin:2px 2px 2px 0;
+  margin: 2px 2px 2px 0;
   /* float:right; */
-  width:14px;
-  height:13.5px;
-  background:#C0C0C0;
-  border-width:1px;
-  border-color:#FFFFFF #808080 #808080 #FFFFFF;
-  padding:0;
-  font-size:9px;
-  font-weight:bold;
-  font-family:Tahoma;
-  text-align:center;
-  focus:none;
+  width: 14px;
+  height: 13.5px;
+  background: #c0c0c0;
+  border-width: 1px;
+  border-color: #ffffff #808080 #808080 #ffffff;
+  padding: 0;
+  font-size: 9px;
+  font-weight: bold;
+  font-family: Tahoma;
+  text-align: center;
+  focus: none;
 }
 
 button:focus {
@@ -72,18 +82,18 @@ button:focus {
 }
 
 @keyframes float {
-	0% {
-		/* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
-		transform: translatey(0px);
-	}
-	50% {
-		/* box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2); */
-		transform: translatey(-20px);
-	}
-	100% {
-		/* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
-		transform: translatey(0px);
-	}
+  0% {
+    /* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+    transform: translatey(0px);
+  }
+  50% {
+    /* box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2); */
+    transform: translatey(-20px);
+  }
+  100% {
+    /* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+    transform: translatey(0px);
+  }
 }
 
 .box {
